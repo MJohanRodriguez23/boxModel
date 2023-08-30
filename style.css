@@ -9,19 +9,19 @@ header {
 }
 
 section {
+    display: flex;
+    /* flex-direction: row-reverse; */
     background-color: green;
     overflow: hidden;
 }
 
 nav {
     background-color: beige;
-    float: left;
     width: 25%;
 }
 
 article {
     background-color: aquamarine;
-    float: left;
     width: 75%;
     height: 80px;
     
